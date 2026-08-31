@@ -187,7 +187,7 @@ ABUSEIPDB_API_KEY=YOUR_REAL_ABUSEIPDB_API_KEY
 Your .env should now look like:
 VT_API_KEY=your_virustotal_key
 ABUSEIPDB_API_KEY=your_abuseipdb_key
-
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/24c4de171c94914d3bdb3b31647ddcb1f49cf996/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125256.png)
 Go to main.py delete the current main.py and type this code into it
 import os
 import re
