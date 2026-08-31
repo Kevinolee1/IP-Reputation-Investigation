@@ -1,6 +1,7 @@
 # IP-Reputation-Investigation
 Built a Python tool that uses the VirusTotal API to investigate IP addresses and retrieve reputation results, location, network, ASN, and ownership information.
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/ae37816984d57e72acf7f01a7edcc513c13f8459/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120045.png)
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/cadcba97e02bf49f2e9ba0fe24a2a33f167ea2dd/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120107.png)
 
 Go to Vs Code and replace yoy existing main.py with this new function under your investigate_url() function:
 def investigate_ip(ip_address):
