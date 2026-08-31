@@ -178,7 +178,7 @@ Country: US
 Network: ...
 ASN: ...
 Owner: GOOGLE
-
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/de10eaca46d46d13fb81af47bde82a80bbff8b81/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20122700.png)
 Go to AbuseIPDB and copy your API Key
 
 Then open your .env file in Vs Code and add a second line
