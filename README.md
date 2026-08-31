@@ -191,6 +191,8 @@ ABUSEIPDB_API_KEY=your_abuseipdb_key
 
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/24c4de171c94914d3bdb3b31647ddcb1f49cf996/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125256.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/326ec8e1ed20c6027500e1a1dd4276ad3b42067b/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125323.png)
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/a1567798e39d3cdaadd20019a607cac99efc0e54/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125345.png)
+
 Go to main.py delete the current main.py and type this code into it
 import os
 import re
