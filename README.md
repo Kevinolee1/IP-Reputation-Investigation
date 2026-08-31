@@ -1,7 +1,7 @@
 # IP-Reputation-Investigation
 Built a Python tool that uses the VirusTotal API to investigate IP addresses and retrieve reputation results, location, network, ASN, and ownership information.
 
-Keep your existing main.py and add this new function under your investigate_url() function:
+Go to Vs Code and replace yoy existing main.py with this new function under your investigate_url() function:
 def investigate_ip(ip_address):
     api_url = f"https://www.virustotal.com/api/v3/ip_addresses/{ip_address}"
 
@@ -33,31 +33,7 @@ def investigate_ip(ip_address):
         print()
         print(f"IP lookup failed. Status Code: {response.status_code}")
         print(response.text)
-        Press ctrl+s to save 
-
-        Then find this section near the bottom:\
-        if ioc_type == "Domain":
-    investigate_domain(ioc)
-
-elif ioc_type == "URL":
-    investigate_url(ioc)
-
-else:
-    print()
-    print("This lab currently investigates Domains and URLs only.")
-    Replace it with:
-    if ioc_type == "Domain":
-    investigate_domain(ioc)
-
-elif ioc_type == "URL":
-    investigate_url(ioc)
-
-elif ioc_type == "IP Address":
-    investigate_ip(ioc)
-
-else:
-    print()
-    print("This IOC type is not supported in this lab yet.")
+ 
     Press Ctrl+S to save
     
     Go to PowerShell and type python main.py
