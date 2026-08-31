@@ -152,15 +152,15 @@ else:
     print()
     print("This IOC type is not supported in this lab yet.")
     Press Ctrl+S to save
- ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/5c3f221b045603216b52b79ad9d1d8a2f88a24eb/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120627.png)
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/5c3f221b045603216b52b79ad9d1d8a2f88a24eb/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120627.png)
 
-    Go to PowerShell and type python main.py
-    When it asks Enter IOC to investigate:
-    use this safe test IP: 8.8.8.8
+ Go to PowerShell and type python main.py
+    
+When it asks Enter IOC to investigate:
+use this safe test IP: 8.8.8.8
 
-    You should get output resembling
-
-    SOC IOC Investigation Tool
+You should get output resembling
+SOC IOC Investigation Tool
 --------------------------
 IOC:  8.8.8.8
 Type: IP Address
