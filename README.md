@@ -10,7 +10,7 @@ Built a Python tool that uses the VirusTotal API to investigate IP addresses and
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/4a787ae68172b68b23af69d61222a42292add396/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125449.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/3bda20273da9c9e3a323ba8bd57bcbb0684c1de1/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125523.png)
 
-Go to Vs Code and replace yoy existing main.py with this new function under your investigate_url() function:
+Go to Vs Code and replace your existing main.py with this new function under your investigate_url() function:
 def investigate_ip(ip_address):
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/069a4d99c1ea3a282a5d05f2091a19cc17d2685f/Screenshot%202026-08-31%20184002.png)
 
