@@ -49,17 +49,14 @@ Go to AbuseIPDB and copy your API Key
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/51d64001569aa26f598d5e502706aa7d3b5696a7/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20123911.png)
 
 
-
-
-
-
-Then open your .env file in Vs Code and add a second line)
+Then open your .env file in VS Code and add a second line)
 
 ABUSEIPDB_API_KEY=YOUR_REAL_ABUSEIPDB_API_KEY
 
 Your .env should now look like:
 
 VT_API_KEY=your_virustotal_key
+
 ABUSEIPDB_API_KEY=your_abuseipdb_key
 
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/24c4de171c94914d3bdb3b31647ddcb1f49cf996/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125256.png)
