@@ -48,6 +48,7 @@ Owner: GOOGLE
 Go to AbuseIPDB and copy your API Key
 
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/0515aaf599879e4444e36e20af5f67905ed60408/README.md)
+
 Then open your .env file in Vs Code and add a second line)
 
 ABUSEIPDB_API_KEY=YOUR_REAL_ABUSEIPDB_API_KEY
