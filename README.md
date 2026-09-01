@@ -63,7 +63,7 @@ Go to main.py delete the current main.py and type this code into it
     Press Ctrl+S to save
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/77c9198613af1dd3a582aa8ee2e9ddd48ce7110c/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20130336.png)
 
-Go back to PowerShell and type python main.py 
+Open PowerShell and type python main.py 
 
 Test again with: 8.8.8.8
 
@@ -71,17 +71,27 @@ Test again with: 8.8.8.8
 You should see output similar to the following: 
 
 VirusTotal
+
 Malicious:  0
+
 Suspicious: 0
+
 Harmless:   53
+
 Undetected: 38
 
 AbuseIPDB
+
 Abuse Confidence Score: 0%
+
 Total Reports: 195
+
 Country: US
+
 ISP: Google LLC
+
 Domain: google.com
+
 Usage Type: Content Delivery Network 
 
 **Skills Demonstrated:** Python | VirusTotal API | AbuseIPDB API | REST APIs | JSON Parsing | IP Reputation Analysis | Threat Intelligence | IOC Enrichment | ASN Analysis | Network Analysis | API Integration | SOC Automation
