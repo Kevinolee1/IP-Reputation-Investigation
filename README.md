@@ -42,9 +42,12 @@ Network: ...
 ASN: ...
 Owner: GOOGLE
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/de10eaca46d46d13fb81af47bde82a80bbff8b81/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20122700.png)
+
 Go to AbuseIPDB and copy your API Key
+
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/0515aaf599879e4444e36e20af5f67905ed60408/README.md)
-Then open your .env file in Vs Code and add a second line
+Then open your .env file in Vs Code and add a second line)
+
 ABUSEIPDB_API_KEY=YOUR_REAL_ABUSEIPDB_API_KEY
 
 Your .env should now look like:
