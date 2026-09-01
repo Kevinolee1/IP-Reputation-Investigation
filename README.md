@@ -46,7 +46,7 @@ Owner: GOOGLE
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/de10eaca46d46d13fb81af47bde82a80bbff8b81/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20122700.png)
 Go to AbuseIPDB and copy your API Key
 
-![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/0515aaf599879e4444e36e20af5f67905ed60408/README.md)
+![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/51d64001569aa26f598d5e502706aa7d3b5696a7/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20123911.png)
 
 
 
