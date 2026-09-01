@@ -1,5 +1,5 @@
 # IP-Reputation-Investigation
-Built a Python tool that uses the VirusTotal API to investigate IP addresses and retrieve reputation results, location, network, ASN, and ownership information.
+Built a Python-based IP reputation investigation tool that correlates VirusTotal and AbuseIPDB threat-intelligence data to analyze IP reputation, malicious and suspicious detections, abuse confidence scores, network ownership, ASN, geographic information, and infrastructure details for SOC investigations.
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/ae37816984d57e72acf7f01a7edcc513c13f8459/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120045.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/cadcba97e02bf49f2e9ba0fe24a2a33f167ea2dd/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120107.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/39bbba79a9f89bda2c78a47dd73216d6424afbaa/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120129.png)
@@ -10,7 +10,7 @@ Built a Python tool that uses the VirusTotal API to investigate IP addresses and
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/4a787ae68172b68b23af69d61222a42292add396/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125449.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/3bda20273da9c9e3a323ba8bd57bcbb0684c1de1/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125523.png)
 
-Go to Vs Code and replace your existing main.py with this new function under your investigate_url() function:
+Open VS Code and add the investigate_ip() function below the existing investigate_url() function.
 def investigate_ip(ip_address):
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/069a4d99c1ea3a282a5d05f2091a19cc17d2685f/Screenshot%202026-08-31%20184002.png)
 
@@ -22,7 +22,7 @@ def investigate_ip(ip_address):
 When it asks Enter IOC to investigate:
 use this safe test IP: 8.8.8.8
 
-You should get output resembling
+You should see output similar to the following:
 SOC IOC Investigation Tool
 --------------------------
 IOC:  8.8.8.8
@@ -68,7 +68,7 @@ Go back to PowerShell and type python main.py
 Test again with: 8.8.8.8
 
 
-You should get a output similar to 
+You should see output similar to the following: 
 
 VirusTotal
 Malicious:  0
@@ -83,3 +83,5 @@ Country: US
 ISP: Google LLC
 Domain: google.com
 Usage Type: Content Delivery Network 
+
+**Skills Demonstrated:** Python | VirusTotal API | AbuseIPDB API | REST APIs | JSON Parsing | IP Reputation Analysis | Threat Intelligence | IOC Enrichment | ASN Analysis | Network Analysis | API Integration | SOC Automation
