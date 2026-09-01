@@ -15,6 +15,7 @@ Open VS Code and add the investigate_ip() function below the existing investigat
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/069a4d99c1ea3a282a5d05f2091a19cc17d2685f/Screenshot%202026-08-31%20184002.png)
 
     Press Ctrl+S to save
+    
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/5c3f221b045603216b52b79ad9d1d8a2f88a24eb/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20120627.png)
 
  Go to PowerShell and type python main.py
@@ -41,6 +42,7 @@ Country: US
 Network: ...
 ASN: ...
 Owner: GOOGLE
+
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/de10eaca46d46d13fb81af47bde82a80bbff8b81/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20122700.png)
 
 Go to AbuseIPDB and copy your API Key
@@ -60,10 +62,13 @@ ABUSEIPDB_API_KEY=your_abuseipdb_key
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/a1567798e39d3cdaadd20019a607cac99efc0e54/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125345.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/c4b9c4f3785360961fa2cd8ea53af3f6fbd5c8f3/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125409.png)
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/b4f8a4aee72cb756a364309ad3863f48fbb9e02b/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20125427.png)
+
 Go to main.py delete the current main.py and type this code into it
+
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/9cd9e3a9ff1b19979a13a56abf54ee32f3b15367/Screenshot%202026-08-31%20184036.png)
 
     Press Ctrl+S to save
+    
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/77c9198613af1dd3a582aa8ee2e9ddd48ce7110c/IP%20Reputation%20Investigation/Screenshot%202026-08-31%20130336.png)
 
 Open PowerShell and type python main.py 
