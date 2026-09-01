@@ -12,7 +12,6 @@ Built a Python-based IP reputation investigation tool that correlates VirusTotal
 
 Open VS Code and add the investigate_ip() function below the existing investigate_url() function.
 
-def investigate_ip(ip_address):
 ![Image alt](https://github.com/Kevinolee1/IP-Reputation-Investigation/blob/069a4d99c1ea3a282a5d05f2091a19cc17d2685f/Screenshot%202026-08-31%20184002.png)
 
     Press Ctrl+S to save
